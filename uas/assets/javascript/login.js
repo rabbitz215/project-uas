@@ -1,3 +1,8 @@
+function message(id, text) {
+    document.getElementById(id).innerHTML = "<b>" + text + "</b>";
+    document.getElementById(id).style.display = "inline";
+}
+
 const username = "admin";
 const password = "123";
 
